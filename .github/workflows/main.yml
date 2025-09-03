@@ -10,7 +10,7 @@ on:
 
 jobs:
   run-build:
-    name: Call Reusable Workflow
+    name: call Reusable Workflow
     uses: wutzzplw/node-template/.github/workflows/node-build-template.yml@main
     with:
       node-version: '20'
